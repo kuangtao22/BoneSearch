@@ -27,7 +27,7 @@ class BoneSearchController: UIViewController {
     }
 
     /// 协议
-    var delegate: BoneSearchDelegate?
+    weak var delegate: BoneSearchDelegate?
 
     /// 是否打开历史记录
     var isHistorySearch: Bool? {
